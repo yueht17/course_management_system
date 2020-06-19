@@ -1,7 +1,7 @@
 from app import app
 from flask import render_template, request, flash, redirect, url_for
 from flask_login import current_user, login_user, logout_user, login_required
-from app.models_new import Student, Teacher, Manager, Course, Course_select_table, Course_Teacher, Major, Dept
+from app.models import Student, Teacher, Manager, Course, Course_select_table, Course_Teacher, Major, Dept
 from app.forms import EditProfileForm
 from app import db
 from urllib.parse import urlparse as url_parse
