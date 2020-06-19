@@ -4,7 +4,7 @@ from flask_migrate import Migrate
 from flask_login import LoginManager
 from flask_bootstrap import Bootstrap
 
-from .config import Config
+from config import Config
 
 # create and configure the app
 app = Flask(__name__)
